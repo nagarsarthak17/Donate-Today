@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donee</title>
+  <style>
+    * {box-sizing: border-box}
+
+    .initial {
+      border: 3px solid rgb(224, 82, 57);
+    }
+
+
+  input[type=first_name], input[type=last_name], input[type=location], input[type=blood_group], input[type=mobile_number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display:inline;
+  border:10px;
+  background: #f1f1f1;
+}
+input[type=first_name]:focus, input[type=last_name]:focus, input[type=location]:focus, input[blood_group]:focus, input[type=mobile_number]:focus {
+  background-color: rgb(196, 190, 190);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+button {
+  background-color: rgb(224, 82, 57);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container {
+  padding: 30px;
+}
+  </style>
+</head>
+<body>
+  <header>
+      <div class="heading"></div>
+  </header>
+  <main>
+    <form class="initial" action="Thanksfordonee.html">
+      <div class="container">
+        <h1>Registration for Blood Donee</h1>
+        <p>
+          A single drop of blood can make a huge difference!!</p>
+        <hr>
+    
+        <label for="first Name"><b>Patient First Name</b></label>
+        <input type="first_name" placeholder="Enter Patient First Name" name="first name" required>
+    
+        <label for="last Name"><b>Patient Last Name</b></label>
+        <input type="last_name" placeholder="Enter Patient Last Name" name="last name" required>
+    
+        <label for="location"><b>Hospital & Address</b></label>
+        <input type="location" placeholder="Enter Hospital Name & Address" name="location" required>
+
+        <label for="blood Group"><b>Blood Group</b></label>
+        <input type="blood_group" placeholder="Enter your Blood Group" name="blood group" required>
+
+       <label for="mobile Number"><b>Mobile Number</b></label>
+        <input type="mobile_number" placeholder="Enter your Mobile Number" name="mobile Number" required>
+
+        
+  
+        <div class="button">
+          <button type="button" class="cancelbtn"><a href="index.html" style="text-decoration:none ; color: #f1f1f1;">Cancel</a></button>
+          <button type="submit" class="signupbtn"><a href="Thanksfordonee.html" style="text-decoration:none ; color: #f1f1f1;">Submit</a></button>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

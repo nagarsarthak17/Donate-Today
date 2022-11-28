@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     
+    body{
+        font-family: 'cinzel', serif;
+    }
+     
+    .navbar{
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        z-index: 9;
+        transition: .5s;
+    }
+     
+    .navbar.bg{
+        background: #E0C2A5;
+    }
+     
+    .links-container{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+     
+    .link-item{
+        margin: 10px;
+    }
+     
+    .link{
+        font-size: 20px;
+        color: rgb(223, 215, 215);
+        text-decoration: none;
+        padding: 10px;
+        opacity: 0.7;
+        transition: .5s;
+    }
+     
+    .navbar.bg .link{
+        color: #000;
+        opacity: 0.5;
+    }
+     
+    .link.active, .link:hover, .navbar.bg .link:hover, .navbar.bg .link.active{
+        opacity: 1;
+    }
+     
+    html {
+      box-sizing: border-box;
+    }
+     
+     
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+     
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+      margin-left: 150px;
+    }
+     
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+     
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #000000;
+      color: white;
+    }
+     
+    .container {
+      padding: 0 16px;
+    }
+     
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+     
+    .title {
+      color: grey;
+    }
+     
+    .button {
+     
+   
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+     
+    .button:hover {
+      background-color: #555;
+    }
+     
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .cancelbtn {
+      background-color: rgb(2, 1, 1);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+    }
+
+
+    </style>
+</head>
+<body>
+  <div class="about-section">
+    <h1>ABOUT US </h1>
+  </div>
+
+  <br>
+
+   <div>
+  <h2 style="text-align:center"><b> Our Team</b></h2>
+  <br>
+</div>
+
+    <div class="column">
+      <div class="card">
+        <img src="S11.jpeg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>SARTHAK NAGAR</h2>
+          <p class="title">DEVELOPER</p>
+          <p>Website without visitors is like a ship lost in the horizon.</p>
+          <p>sarthak.nagar.8080@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="column">
+      <div class="card">
+        <img src="S12.jpeg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>SARTHAK DWIVEDI</h2>
+          <p class="title">DEVELOPER</p>
+          <p>A website without SEO is like a car with no gas.</p>
+          <p>sarthakdwivedi16@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </
+  <footer>
+  <div class="button">
+    <button type="button" class="cancelbtn"><a href="index.html" style="text-decoration:none ; color: #f1f1f1;">Home</a></button>
+  </div>
+</footer>
+</body>
+</html>

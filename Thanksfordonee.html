@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donee</title>
+  <style>
+    * {box-sizing: border-box}
+
+    .initial {
+      border: 3px solid rgb(224, 82, 57);
+    }
+
+
+  input[type=first_name], input[type=last_name], input[type=location], input[type=blood_group], input[type=mobile_number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display:inline;
+  border:10px;
+  background: #f1f1f1;
+}
+input[type=first_name]:focus, input[type=last_name]:focus, input[type=location]:focus, input[blood_group]:focus, input[type=mobile_number]:focus {
+  background-color: rgb(196, 190, 190);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+button {
+  background-color: rgb(224, 82, 57);
+  color: white;
+  padding: 14px 40px ;
+  margin:auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.container {
+  padding: 30px;
+}
+  </style>
+</head>
+<body>
+  <header>
+      <div class="heading"></div>
+  </header>
+  <main>
+    <form class="initial" action="project.php">
+      <div class="container">
+        <h1><b>Thank You </b></h1>
+  <h1><b>Your Response has been recorded!!</b></h1>
+  <h1><b>Our team will reach out to you shortly </b></h1>
+  <h1><b>Wishing for a speedy recovery!!</b></h1>
+
+        
+  
+        <div class="button">
+          <button type="button" class="cancelbtn"><a href="index.html" style="text-decoration:none ; color: #f1f1f1;">Home</a></button>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

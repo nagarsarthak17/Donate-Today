@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DonateToday</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background: black;
+}
+.heading ul {
+  display: flex;
+}
+ 
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+@media();{
+
+}
+ 
+.logo a {
+  color: white;
+  transition-duration: 1s;
+  font-weight: 800;
+}
+.logo a:hover {
+  color: rgb(218, 60, 32);
+  transition-duration: 1s;
+}
+.heading ul li {
+  list-style: none;
+}
+.heading ul li a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  color: white;
+  margin: 2px 14px;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+.heading ul li a:active {
+  color: red;
+}
+.heading ul li a:hover {
+  color: rgb(218, 60, 32);
+  transition-duration: 1s;
+}
+.heading ul li a::before {
+  content: "";
+  height: 2px;
+  width: 0px;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition-duration: 1s;
+}
+.heading ul li a:hover::before {
+  width: 100%;
+  transition-duration: 1s;
+  background-color: rgb(194, 57, 23);
+}
+#input {
+  height: 30px;
+  width: 300px;
+  text-decoration: none;
+  border: 0px;
+  padding: 5px;
+}
+.logo a {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: none;
+}
+ion-icon {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+ion-icon:hover {
+  cursor: pointer;
+}
+.search a {
+  display: flex;
+}
+header a ion-icon {
+  position: relative;
+  right: 3px;
+}
+.heading1 {  
+    opacity:0;  
+  }
+ 
+
+
+
+
+
+  footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  color: white;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+}
+.social-media a {
+  color: white;
+  margin: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+.social-media a ion-icon {
+  color: white;
+  background-color: black;
+}
+.social-media a:hover ion-icon {
+  color: red;
+  transform: translateY(5px);
+}
+.footer2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.footer0 {
+  font-weight: 1200;
+  transition-duration: 1s;
+}
+.footer0:hover {
+  color: rgb(243, 168, 7);
+}
+.footer2 .heading {
+  font-weight: 900;
+  font-size: 18px;
+}
+.footer3 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer2 .heading:hover {
+  color: rgb(243, 168, 7);
+}
+.footer2 .div:hover {
+  transform: scale(1.05);
+}
+.footer3 h4 {
+  margin: 0 10px;
+}
+.footer2 div {
+  margin: 10px;
+}
+
+.image123 {
+  
+  width: 48%;
+  float: right;
+
+}
+
+
+</style>
+</head>
+
+
+  <header>
+    <div class="logo"><a href="#">DONATE TODAY</a></div>
+    <div class="menu">
+     
+      <div class="heading">
+      <ul>
+        <li>
+          <a
+            href=""
+            class="under"
+            >HOME</a
+          >
+        </li>
+        <li>
+          <a
+            href="BloodDonor.html"
+            class="under"
+            >DONOR</a
+          >
+        </li>
+        <li>
+          <a
+            href="BloodDonee.html"
+            class="under"
+            >DONEE</a
+          >
+        </li>
+        <li>
+          <a
+            href="AboutUs.html"
+            class="under"
+            >ABOUT US</a
+          >
+        </li>
+      </ul>
+  </div>
+    </div>
+   
+  </header>
+
+<div class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  
+  <img class="w3-image" src="https://media.istockphoto.com/id/1252380604/photo/note-paper-with-blood-donation-concept-on-red-background.jpg?b=1&s=170667a&w=0&k=20&c=HJpGKpSF3ULIBECqzb6vr2zT5dx-dhbGmbOoI5XsRxo=" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge"></h1>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://wallpapercave.com/wp/wp11201274.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="1000" height="1000">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">What is Blood Donation</h1><br>
+      <h5 class="w3-center"></h5>
+      <p class="w3-large">Safe blood saves lives. Blood is needed by women with complications
+        during pregnancy and childbirth, children with severe anaemia, often
+        resulting from malaria or malnutrition, accident victims and surgical
+        and cancer patients. There is a constant need for a regular supply of
+        blood because it can be stored only for a limited period of time before
+        use. Regular blood donation by a sufficient number of healthy people is
+        needed to ensure that blood will always be available whenever and
+        wherever it is needed.
+        <span class="w3-tag w3-light-grey"></span> </p>
+      <p class="w3-large w3-text-grey w3-hide-medium"></p>
+    </div>
+  </div>
+
+  
+  <!-- Menu Section -->
+  <div class="image123" id="menu">
+
+
+  </div>  
+    
+  <div class="image123">
+
+    <img src="https://wallpaperaccess.com/full/6553564.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+  </div>
+</div>
+
+
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">WHY SHOULD PEOPLE DONATE BLOOD ?</h1><br>
+      <h4></h4>
+      <p class="w3-text-black">Safe blood saves lives. Blood is needed by women with complications
+        during pregnancy and childbirth, children with severe anaemia, often
+        resulting from malaria or malnutrition, accident victims and surgical
+        and cancer patients. There is a constant need for a regular supply of
+        blood because it can be stored only for a limited period of time before
+        use. Regular blood donation by a sufficient number of healthy people is
+        needed to ensure that blood will always be available whenever and
+        wherever it is needed.Blood is the most precious gift that anyone can
+        give to another person – the gift of life. A decision to donate your
+        blood can save a life, or even several if your blood is separated into
+        its components – red cells, platelets and plasma – which can be used
+        individually for patients with specific conditions. </p><br>
+    
+      </div>
+    </div>  
+    
+ 
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <hr>
+    <h1>WHO CAN GIVE BLOOD, AND HOW OFTEN ?</h1><br>
+    <p>The criteria for donor selection varies from country to country, but
+      blood can be donated by most people who are healthy and do not have an
+      infection that can be transmitted through their blood. The age at which
+      people are eligible to give blood varies, but is commonly between the
+      ages of 17 and 65. Some countries accept donations from people from the
+      age of 16 and extend the upper age limit beyond 65 years. Healthy adults
+      can give blood regularly – at least twice a year. Your local blood
+      service can tell you how frequently you can give blood.</p>
+    
+
+      <div class="w3-container w3-padding-64" id="contact">
+        <h1>WHO SHOULD NOT DONATE BLOOD ?</h1><br>
+        <p>The blood service is concerned with the welfare of both the blood donor
+          and the recipient (patient). Donors are often asked not to donate blood
+          for a period of time in the interests of their safety and/or that of the
+          blood supply. You should not give blood if your own health might suffer
+          as a result. The first concern of the blood service is to ensure that
+          blood donation does no harm to the blood donor. You should not donate
+          blood if: You are feeling unwell You are anaemic You are pregnant, have
+          been pregnant within the last year or are breastfeeding You have certain
+          medical conditions, which might make you an unsuitable donor You are
+          taking certain medications, such as antibiotics. You may be able to
+          donate blood at a later time.</p>
+      </div>
+     
+      
+ 
+</div>
+
+
+
+ 
+<footer>
+  <div class="footer0">
+    <h1>DONATE TODAY</h1>
+  </div>
+  <div class="footer1">
+    Connect with us at
+    <div class="social-media">
+      <a href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer3">
+    © 2022 DONATE TODAY Pvt. Ltd. All Rights Reserved.
+    <h4>&nbsp; DONATE TODAY</h4>
+    2022
+  </div>
+</footer>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+</body>
+</html>
